@@ -132,6 +132,7 @@ def prepare():
             #print features.shape
             #print labels.shape
             #print adj
+            labels = labels - 1
             sample_feat.append(features)
             sample_lbl.append(labels)
             sample_adj.append(adj)
